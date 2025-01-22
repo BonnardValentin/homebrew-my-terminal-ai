@@ -4,7 +4,7 @@ import sys
 
 def nlp_processing(command):
     if "hello" in command.lower():
-        return "Hello, World!"
+        return "Hello, World! This is a simple AI-powered terminal plugin."
     return f"I don't understand: {command}"
 
 

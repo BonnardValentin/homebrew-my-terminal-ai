@@ -5,7 +5,7 @@ class AiPlugin < Formula
     sha256 "e9a34148222c6783400c4c91c32a46f802eb8280a8016bf9eb377a20618bc29b"
     license "MIT"
   
-    depends_on "python@3.13" # Adjust version if needed
+    depends_on "python@3.13" 
   
     def install
       bin.install "ai_plugin.py" => "ai-plugin"
